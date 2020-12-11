@@ -30,7 +30,7 @@
   position: relative;
   width: 100%;
   padding: 0;
-  margin: 0 0 100px 0;
+  margin: 0 0 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -95,7 +95,7 @@
 .description {
   display: flex;
   justify-content: center;
-  margin: 0 0 100px 0;
+  margin: 0 0 100px;
   padding: 0;
 }
 
@@ -145,7 +145,7 @@
 /* Digits Block styles */
 
 .digits {
-  margin: 0 0 100px 0;
+  margin: 0 0 100px;
   padding-top: 100px;
 }
 
@@ -161,7 +161,7 @@
 
 .digits__table {
   width: 1100px;
-  margin: 0 auto 100px auto;
+  margin: 0 auto 100px;
 }
 
 /* Section-title Block styles */
@@ -170,6 +170,10 @@
   line-height: 1.15;
   font-weight: bold;
   font-size: 60px;
+}
+
+.section-title-theme-dark {
+  color: white;
 }
 
 /* Section-subtitle Block styles */
@@ -182,16 +186,15 @@
   font-weight: normal;
 }
 
+.section-subtitle-theme-dark {
+  color: white;
+}
+
 /* Table Block styles */
 .table__row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.table__cell-theme-light {
-  width: 250px;
-  margin-top: 60px;
 }
 
 .table__heading {
@@ -208,11 +211,29 @@
   font-weight: normal;
 }
 
-.table__cell_theme_dark {
+.table__cell-theme-light {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table-theme-dark {
+  position: relative;
+  z-index: 1;
+}
+
+.table__cell-theme-dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.table__heading-theme-dark {
+  color: white;
+}
+
+.table__text-theme-dark {
+  color: white;
 }
 
 /* Feynman Block styles */
@@ -253,10 +274,36 @@
   color: #2f80ed;
 }
 
-/*
-Set the line height to 1.15, the font size to 120px, and the typeface to bold.
-Set the line height to 51px, the font size to 36px, and the typeface to
-normal.
-Set the line height to 51px, the font size to 36px, and the typeface to
-normal.
-*/
+/* Kaufman Block styles */
+
+.kaufman {
+  background-color: #000000;
+  margin: 0 0 100px 0;
+  padding-top: 90px;
+  position: relative;
+  overflow: hidden;
+}
+
+.kaufman__section-title {
+  width: 60%;
+  margin: auto;
+}
+
+.kaufman__section-subtitle {
+  width: 60%;
+  margin: 20px auto 0;
+}
+
+.kaufman__table {
+  margin: 0 auto 90px;
+  width: 1100px;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  top: 0px;
+  z-index: 0;
+  height: 887px;
+  width: 877px;
+}
