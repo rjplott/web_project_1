@@ -1,0 +1,6 @@
+@import url(./_interior-card/card__item_interior-card.css);
+
+.cards__item {
+  width: 240px;
+  padding-top: 60px;
+}

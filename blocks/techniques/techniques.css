@@ -1,0 +1,8 @@
+@import url(./__section-title/techniques__section-title.css);
+@import url(./__section-subtitle/techniques__section-subtitle.css);
+@import url(./__cards/techniques__cards.css);
+
+.techniques {
+  margin: 0;
+  padding: 100px 0 0;
+}
