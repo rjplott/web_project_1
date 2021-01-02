@@ -1,0 +1,11 @@
+@import url(./__section-title/resources__section-title.css);
+@import url(./__section-subtitle/resources__section-subtitle.css);
+@import url(./__logo-zone/resources__logo-zone.css);
+@import url(./__logo/resources__logo.css);
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 100px 0 217px;
+}
