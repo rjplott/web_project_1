@@ -1,0 +1,9 @@
+@import url(./__section-title/video__section-title.css);
+@import url(./__section-subtitle/video__section-subtitle.css);
+@import url(./__iframe-wrapper/video__iframe-wrapper.css);
+@import url(./__iframe/video__iframe.css);
+
+.video {
+  padding: 100px 0 0;
+  margin: 0 auto;
+}
