@@ -3,6 +3,6 @@
   padding: 60px 100px 0 0;
 }
 
-.cards__item:nth-child(3) {
+.cards__item:nth-child(3n) {
   padding-right: 0;
 }
